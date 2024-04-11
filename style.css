@@ -87,6 +87,10 @@ ul li:hover {
     font-weight: bolder;
 }
 
+.secondclass {
+    font-size: 14px;
+}
+
 .author {
     justify-content: center;
     align-items: center;
@@ -152,9 +156,10 @@ ul li:hover {
 }
 
 .proj div {
-    width: 400px;
+    width: 320px;
     display: flex;
-    height: 200px;
+    font-size: 16px;
+    height: 160px;
     margin: 20px 0px 20px 0px;
     background-size: cover;
     background-position: center center;
