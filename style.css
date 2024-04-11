@@ -156,10 +156,10 @@ ul li:hover {
 }
 
 .proj div {
-    width: 320px;
+    width: 380px;
     display: flex;
     font-size: 16px;
-    height: 160px;
+    height: 190px;
     margin: 20px 0px 20px 0px;
     background-size: cover;
     background-position: center center;
