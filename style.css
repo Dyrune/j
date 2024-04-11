@@ -46,7 +46,7 @@
     position: absolute;
     top: 0;
     left: -100%; /* Initially hide the menu off the screen */
-    height: 100vh;
+    height: 104vh;
     width: 50%;
     padding: 10px;
     background-color: darkgray;
@@ -160,7 +160,7 @@ a {
 .abou {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding: 20px;
-    font-size: 52px;
+    font-size: 36px;
 }
 
 .Services {
