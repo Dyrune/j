@@ -51,6 +51,24 @@ document.addEventListener("DOMContentLoaded", function() {
     typeWriterEffect(contentElement, text, 100);
 });
 
+document.addEventListener("DOMContentLoaded", function() {
+    const navLinks = document.querySelectorAll('ul li a');
+    
+    navLinks.forEach(function(link) {
+      link.addEventListener('click', function(event) {
+        event.preventDefault();
+        
+        const targetId = this.getAttribute('href').substring(1);
+        const targetElement = document.getElementById(targetId);
+        
+        if (targetElement) {
+          targetElement.scrollIntoView({ behavior: 'smooth' });
+        }
+      });
+    });
+  });
+  
+
 const htmlProgress = document.getElementById('html-progress');
 const cssProgress = document.getElementById('css-progress');
 const jsProgress = document.getElementById('js-progress');
