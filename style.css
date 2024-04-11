@@ -21,6 +21,7 @@
 
 .gra img {
     width: 50px;
+    margin-top: 20px;
     height: 50px;
 }
 
@@ -29,6 +30,7 @@
     margin-left: 5%;
     font-family: "Open Sans", sans-serif;
     color: gray;
+    margin-bottom: 30px;
     font-style: 12px;
     font-variation-settings:"wdth" 30;
 }
