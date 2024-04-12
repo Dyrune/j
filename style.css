@@ -62,8 +62,9 @@
     position: absolute;
     top: 0;
     left: -100%; /* Initially hide the menu off the screen */
-    height: 100vh;
-    padding: 30px;
+    height: 105vh;
+    width: 90%;
+    padding: 5%;
     background-color: darkgray;
     animation: slideIn 1.5s forwards; /* Apply the animation */
 }
