@@ -15,6 +15,7 @@ document.addEventListener("DOMContentLoaded", function() {
         hb.style.display = "inline"; // Show the hamburger icon
     });
 });
+
 document.addEventListener("DOMContentLoaded", function() {
     var contentElement = document.getElementById("content");
     var text = contentElement.textContent.trim();
