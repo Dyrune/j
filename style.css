@@ -15,6 +15,9 @@
     display: flex;
     justify-content: space-between;
     margin: 10px;
+    align-items: center;
+    width: 86%;
+    margin-left: 7%;
 }
 
 .hb {
