@@ -249,6 +249,20 @@ a {
     font-size: 24px;
     position: absolute;
     font-weight: bolder;
+    font-variant: 2px;
+}
+
+.server {
+    width: 90%;
+    text-shadow: 0.5px 0.5px 2px black;
+    letter-spacing: 2px;
+    color: gray;
+    font-family: services;
+}
+
+@font-face {
+    font-family: 'services';
+    src: url(/Pacifico-Regular.ttf);
 }
 
 .Services {
@@ -256,6 +270,7 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 50px;
     margin-bottom: 80px;
 }
 
