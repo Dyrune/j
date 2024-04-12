@@ -62,11 +62,10 @@
     position: absolute;
     top: 0;
     left: -100%; /* Initially hide the menu off the screen */
-    height: 104vh;
-    width: 50%;
-    padding: 10px;
+    height: 100vh;
+    width:87%;
+    padding: 30px;
     background-color: darkgray;
-    border-right: 10px solid white; /* Add your desired border style */
     animation: slideIn 0.5s forwards; /* Apply the animation */
 }
 
@@ -81,6 +80,9 @@
 
 ul li {
     margin: 50px;
+    text-shadow: 1px 1px 2px ;
+    display: flex;
+    justify-content: center;
     list-style: none;
 }
 
@@ -102,6 +104,7 @@ ul li:hover {
 .autor {
     width: 150px;
     height: 150px;
+    box-shadow: 5px 5px 5px 5px gray;
     margin: 0 auto;
     border-radius: 100px;
     margin-bottom: 30px;
@@ -113,8 +116,11 @@ ul li:hover {
 
 .Projects {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
+    align-content: space-between;
+    justify-content: center;
 }
 
 .Contacts {
@@ -157,15 +163,26 @@ ul li:hover {
     width: 70px;
 }
 
+.proj div span {
+    position: relative;
+}
+
 .proj div {
-    width: 380px;
+    width: 350px;
     display: flex;
-    font-size: 16px;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+    font-weight: bolder;
+    font-size: 20px;
+    word-spacing: 2px;
+    font-family: 'Courier New', Courier, monospace;
     height: 190px;
-    margin: 20px 0px 20px 0px;
+    margin: 20px 20px 20px 20px;
     background-size: cover;
     background-position: center center;
+    box-shadow: 5px 5px 15px gray;
     background-repeat: no-repeat;
+    opacity: 0.8;
+    border-radius: 5px;
     flex-direction: column;
 }
 
@@ -186,10 +203,13 @@ ul li:hover {
 .about {
     margin-left: 2.5%;
     width: 95%;
+    border-radius: 20px;
+    opacity: 0.4;
     height: 100vh;
     background-size: cover;
     background-position: center center;
-    color: white;
+    color: black;
+    font-weight: bolder;
     background-repeat: no-repeat;
 }
 
@@ -203,7 +223,7 @@ a {
 .abou {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding: 20px;
-    font-size: 36px;
+    font-size: 28px;
 }
 
 .Services {
@@ -260,6 +280,7 @@ a {
   
   .skill-progress {
     height: 20px;
+    box-shadow: 2px 2px gray;
     background-color: #4caf50;
     border-radius: 5px;
   }
