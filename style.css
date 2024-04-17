@@ -269,6 +269,11 @@ a {
     src: url(/Pacifico-Regular.ttf);
 }
 
+.abou,
+.about {
+    animation: slideInLeft 1s ease;
+}
+
 .Services {
     display: flex;
     flex-direction: column;
@@ -281,6 +286,16 @@ a {
 .services div {
     margin-bottom: 10px;
     
+}
+
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-300px);
+    }
+
+    to {
+        transform: translateX(0);
+    }
 }
 
 .managment,
@@ -328,4 +343,4 @@ a {
     background-color: #4caf50;
     border-radius: 5px;
   }
-  
+
